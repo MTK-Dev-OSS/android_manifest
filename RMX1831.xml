@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    
+    <!--Device Tree-->
+    <project name="MTK-Dev-OSS/android_device_realme_RMX1831" path="device/realme/RMX1831" remote="github" revision="lineage-17.1" />
+ 
+    <!-- Vendor -->
+    <project name="SparXFusion/android_vendor_realme" path="vendor/realme" remote="github" revision="master" />
+    
+    <!-- Remove Packages -->
+    <remove-project path="system/core" name="LineageOS/android_system_core" />
+    <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+    <remove-project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" />
+
+
+    <!-- Packages -->
+    <project name="MTK-Dev-OSS/android_system_core" path="system/core" remote="github" revision="lineage-17.1" />
+    <project name="MTK-Dev-OSS/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
+    <project name="MTK-Dev-OSS/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" revision="lineage-17.1" />
+
+</manifest> 
